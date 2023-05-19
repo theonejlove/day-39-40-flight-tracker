@@ -2,8 +2,8 @@ import requests
 from flight_data import FlightData
 import os
 
-TEQUILA_ENDPOINT = os.environ("TEQUILA_ENDPOINT")
-TEQUILA_API_KEY=os.environ("TEQUILA_API_KEY")
+TEQUILA_ENDPOINT = os.environ["TEQUILA_ENDPOINT"]
+TEQUILA_API_KEY=os.environ["TEQUILA_API_KEY"]
 
 class FlightSearch:
 
